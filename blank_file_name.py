@@ -60,5 +60,3 @@ if "__main__" == __name__:
     array_result = run(path, recur)
     for x in array_result:
         print("File: ", x[0], " in: ", x[1])
-
-    a = 3
