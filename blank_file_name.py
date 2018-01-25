@@ -6,15 +6,15 @@ from os.path import isfile, isdir, join
 
 
 def run(folder, recursive):
-    """
-    Function to execute the search
-    :param folder: The folder to search in
-    :type folder: string
-    :param recursive: Recursive search
-    :type folder: boolean
-    :return: file name found
-    :rtype: array
-    """
+    # """
+    # Function to execute the search
+    # :param folder: The folder to search in
+    # :type folder: string
+    # :param recursive: Recursive search
+    # :type folder: boolean
+    # :return: file name found
+    # :rtype: array
+    # """
     result = []
 
     if listdir(folder):
